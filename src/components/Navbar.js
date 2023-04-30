@@ -1,5 +1,6 @@
 import logo from "../images/logo.svg";
 import { pageLinks, socialLinks } from "../data";
+
 const Navbar = () => {
   return (
     <nav className="navbar">
@@ -28,7 +29,7 @@ const Navbar = () => {
             const { id, href, icon } = link;
             return (
               <li key={id}>
-                <a href={href} target="_blank" className="nav-icon">
+                <a href={href} target="_blank" rel ="noreferrer" className="nav-icon">
                   <i className={icon}></i>
                 </a>
               </li>

@@ -6,7 +6,7 @@ export const pageLinks = [
 ];
 
 export const socialLinks = [
-  { id:1, href:"https://fontawesome.com",icon: "fa-brands fa-facebook" },
+  { id:1, href:"https://www.twitter.com",icon: "fab fa-facebook" },
 
   { id:2, href:"https://www.twitter.com",icon: "fab fa-twitter" },
 

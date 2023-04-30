@@ -23,6 +23,8 @@ const Footer = () => {
           </a>
         </li>
       </ul>
+
+
       <ul className="footer-icons">
         <li>
           <a
